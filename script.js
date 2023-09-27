@@ -10,7 +10,7 @@ function generar(){
     if (texto.value != "") {
         document.getElementById("foto").src = objconec.url+texto.value
         document.getElementById("foto").style = "visibility:visible;"
-      document.getElementById("msg").innerHTML = ""
+        document.getElementById("msg").innerHTML = ""
     }
     else{
         document.getElementById("msg").innerHTML = "texto no puede ser vacio"
