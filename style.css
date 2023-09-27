@@ -1,0 +1,37 @@
+.entrada{
+display: flex;
+flex-direction:  row;
+justify-content: center;
+gap: 2rem;
+margin-bottom: 2em;
+
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resultado {
+    display:flex;
+    justify-content: center;
+    
+}
+
+.resultado h2{
+    text-align: center;
+    background: red;
+    width: 30%;
+}
+
+#foto{
+
+   
+    visibility: hidden;
+}
+
+.cont-img{
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+}
